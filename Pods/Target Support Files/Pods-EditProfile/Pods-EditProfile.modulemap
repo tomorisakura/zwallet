@@ -1,0 +1,6 @@
+framework module Pods_EditProfile {
+  umbrella header "Pods-EditProfile-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5937F314587F5DD41520C675 /* Pods_AddPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7470C55FAF6F348B32CF0477 /* Pods_AddPhone.framework */; };
+		FA4A36732664DD0D00A2BFEF /* Confirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36632664DD0D00A2BFEF /* Confirmation.framework */; };
+		FA4A36742664DD0D00A2BFEF /* Confirmation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36632664DD0D00A2BFEF /* Confirmation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36752664DD0D00A2BFEF /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36642664DD0D00A2BFEF /* Core.framework */; };
+		FA4A36762664DD0D00A2BFEF /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36642664DD0D00A2BFEF /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36772664DD0D00A2BFEF /* EditProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36652664DD0D00A2BFEF /* EditProfile.framework */; };
+		FA4A36782664DD0D00A2BFEF /* EditProfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36652664DD0D00A2BFEF /* EditProfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36792664DD0D00A2BFEF /* History.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36662664DD0D00A2BFEF /* History.framework */; };
+		FA4A367A2664DD0D00A2BFEF /* History.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36662664DD0D00A2BFEF /* History.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A367B2664DD0D00A2BFEF /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36672664DD0D00A2BFEF /* Home.framework */; };
+		FA4A367C2664DD0D00A2BFEF /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36672664DD0D00A2BFEF /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A367D2664DD0D00A2BFEF /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36682664DD0D00A2BFEF /* Login.framework */; };
+		FA4A367E2664DD0D00A2BFEF /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36682664DD0D00A2BFEF /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A367F2664DD0D00A2BFEF /* Otp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36692664DD0D00A2BFEF /* Otp.framework */; };
+		FA4A36802664DD0D00A2BFEF /* Otp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36692664DD0D00A2BFEF /* Otp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36812664DD0D00A2BFEF /* Pin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366A2664DD0D00A2BFEF /* Pin.framework */; };
+		FA4A36822664DD0D00A2BFEF /* Pin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366A2664DD0D00A2BFEF /* Pin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36832664DD0D00A2BFEF /* PinConfirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366B2664DD0D00A2BFEF /* PinConfirmation.framework */; };
+		FA4A36842664DD0D00A2BFEF /* PinConfirmation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366B2664DD0D00A2BFEF /* PinConfirmation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36852664DD0D00A2BFEF /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366C2664DD0D00A2BFEF /* Profile.framework */; };
+		FA4A36862664DD0D00A2BFEF /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366C2664DD0D00A2BFEF /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36872664DD0D00A2BFEF /* Receiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366D2664DD0D00A2BFEF /* Receiver.framework */; };
+		FA4A36882664DD0D00A2BFEF /* Receiver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366D2664DD0D00A2BFEF /* Receiver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36892664DD0D00A2BFEF /* Register.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366E2664DD0D00A2BFEF /* Register.framework */; };
+		FA4A368A2664DD0D00A2BFEF /* Register.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366E2664DD0D00A2BFEF /* Register.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A368B2664DD0D00A2BFEF /* SuccessTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366F2664DD0D00A2BFEF /* SuccessTransfer.framework */; };
+		FA4A368C2664DD0D00A2BFEF /* SuccessTransfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A366F2664DD0D00A2BFEF /* SuccessTransfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A368D2664DD0D00A2BFEF /* TopUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36702664DD0D00A2BFEF /* TopUp.framework */; };
+		FA4A368E2664DD0D00A2BFEF /* TopUp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36702664DD0D00A2BFEF /* TopUp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A368F2664DD0D00A2BFEF /* TopupCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36712664DD0D00A2BFEF /* TopupCentre.framework */; };
+		FA4A36902664DD0D00A2BFEF /* TopupCentre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36712664DD0D00A2BFEF /* TopupCentre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A36912664DD0D00A2BFEF /* Transfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36722664DD0D00A2BFEF /* Transfer.framework */; };
+		FA4A36922664DD0D00A2BFEF /* Transfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A36722664DD0D00A2BFEF /* Transfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4E948F2663F9E000766182 /* AddPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E948D2663F9E000766182 /* AddPhoneViewController.swift */; };
+		FA4E94902663F9E000766182 /* AddPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4E948E2663F9E000766182 /* AddPhoneViewController.xib */; };
+		FA4E94942664044A00766182 /* PhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94932664044A00766182 /* PhoneInteractor.swift */; };
+		FA4E9497266409A500766182 /* PhoneInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E9496266409A500766182 /* PhoneInteractorImpl.swift */; };
+		FA4E949D26640A2300766182 /* PhoneInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E949C26640A2300766182 /* PhoneInteractorOutput.swift */; };
+		FA4E94A126640AB500766182 /* PhoneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94A026640AB500766182 /* PhoneRouter.swift */; };
+		FA4E94A526640AF800766182 /* PhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94A426640AF800766182 /* PhonePresenter.swift */; };
+		FA4E94A826640B3400766182 /* PhonePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94A726640B3400766182 /* PhonePresenterImpl.swift */; };
+		FA4E94AB26640B6900766182 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94AA26640B6900766182 /* PhoneView.swift */; };
+		FA4E94AE26640D2500766182 /* PhoneRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E94AD26640D2500766182 /* PhoneRouterImpl.swift */; };
+		FAE7A9452663F94D009D0604 /* AddPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE7A9432663F94D009D0604 /* AddPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA4A36932664DD0D00A2BFEF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA4A36822664DD0D00A2BFEF /* Pin.framework in Embed Frameworks */,
+				FA4A368E2664DD0D00A2BFEF /* TopUp.framework in Embed Frameworks */,
+				FA4A36782664DD0D00A2BFEF /* EditProfile.framework in Embed Frameworks */,
+				FA4A36922664DD0D00A2BFEF /* Transfer.framework in Embed Frameworks */,
+				FA4A36742664DD0D00A2BFEF /* Confirmation.framework in Embed Frameworks */,
+				FA4A36882664DD0D00A2BFEF /* Receiver.framework in Embed Frameworks */,
+				FA4A36802664DD0D00A2BFEF /* Otp.framework in Embed Frameworks */,
+				FA4A36842664DD0D00A2BFEF /* PinConfirmation.framework in Embed Frameworks */,
+				FA4A36762664DD0D00A2BFEF /* Core.framework in Embed Frameworks */,
+				FA4A36902664DD0D00A2BFEF /* TopupCentre.framework in Embed Frameworks */,
+				FA4A367C2664DD0D00A2BFEF /* Home.framework in Embed Frameworks */,
+				FA4A368C2664DD0D00A2BFEF /* SuccessTransfer.framework in Embed Frameworks */,
+				FA4A367E2664DD0D00A2BFEF /* Login.framework in Embed Frameworks */,
+				FA4A36862664DD0D00A2BFEF /* Profile.framework in Embed Frameworks */,
+				FA4A367A2664DD0D00A2BFEF /* History.framework in Embed Frameworks */,
+				FA4A368A2664DD0D00A2BFEF /* Register.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BACE54D3BBE97ECC93CE849 /* Pods-AddPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddPhone.release.xcconfig"; path = "Target Support Files/Pods-AddPhone/Pods-AddPhone.release.xcconfig"; sourceTree = "<group>"; };
+		7470C55FAF6F348B32CF0477 /* Pods_AddPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950E0CC261C3D7AD31AC5DB9 /* Pods-AddPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddPhone.debug.xcconfig"; path = "Target Support Files/Pods-AddPhone/Pods-AddPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4A36632664DD0D00A2BFEF /* Confirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Confirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36642664DD0D00A2BFEF /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36652664DD0D00A2BFEF /* EditProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EditProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36662664DD0D00A2BFEF /* History.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = History.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36672664DD0D00A2BFEF /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36682664DD0D00A2BFEF /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36692664DD0D00A2BFEF /* Otp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Otp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366A2664DD0D00A2BFEF /* Pin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366B2664DD0D00A2BFEF /* PinConfirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PinConfirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366C2664DD0D00A2BFEF /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366D2664DD0D00A2BFEF /* Receiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Receiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366E2664DD0D00A2BFEF /* Register.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Register.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A366F2664DD0D00A2BFEF /* SuccessTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SuccessTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36702664DD0D00A2BFEF /* TopUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36712664DD0D00A2BFEF /* TopupCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopupCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A36722664DD0D00A2BFEF /* Transfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Transfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4E948D2663F9E000766182 /* AddPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhoneViewController.swift; sourceTree = "<group>"; };
+		FA4E948E2663F9E000766182 /* AddPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPhoneViewController.xib; sourceTree = "<group>"; };
+		FA4E94932664044A00766182 /* PhoneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInteractor.swift; sourceTree = "<group>"; };
+		FA4E9496266409A500766182 /* PhoneInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInteractorImpl.swift; sourceTree = "<group>"; };
+		FA4E949C26640A2300766182 /* PhoneInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInteractorOutput.swift; sourceTree = "<group>"; };
+		FA4E94A026640AB500766182 /* PhoneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRouter.swift; sourceTree = "<group>"; };
+		FA4E94A426640AF800766182 /* PhonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePresenter.swift; sourceTree = "<group>"; };
+		FA4E94A726640B3400766182 /* PhonePresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePresenterImpl.swift; sourceTree = "<group>"; };
+		FA4E94AA26640B6900766182 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		FA4E94AD26640D2500766182 /* PhoneRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRouterImpl.swift; sourceTree = "<group>"; };
+		FAE7A9402663F94D009D0604 /* AddPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7A9432663F94D009D0604 /* AddPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPhone.h; sourceTree = "<group>"; };
+		FAE7A9442663F94D009D0604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE7A93D2663F94D009D0604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4A36772664DD0D00A2BFEF /* EditProfile.framework in Frameworks */,
+				FA4A368B2664DD0D00A2BFEF /* SuccessTransfer.framework in Frameworks */,
+				5937F314587F5DD41520C675 /* Pods_AddPhone.framework in Frameworks */,
+				FA4A36852664DD0D00A2BFEF /* Profile.framework in Frameworks */,
+				FA4A367D2664DD0D00A2BFEF /* Login.framework in Frameworks */,
+				FA4A36892664DD0D00A2BFEF /* Register.framework in Frameworks */,
+				FA4A36752664DD0D00A2BFEF /* Core.framework in Frameworks */,
+				FA4A367F2664DD0D00A2BFEF /* Otp.framework in Frameworks */,
+				FA4A36792664DD0D00A2BFEF /* History.framework in Frameworks */,
+				FA4A36872664DD0D00A2BFEF /* Receiver.framework in Frameworks */,
+				FA4A368F2664DD0D00A2BFEF /* TopupCentre.framework in Frameworks */,
+				FA4A368D2664DD0D00A2BFEF /* TopUp.framework in Frameworks */,
+				FA4A36732664DD0D00A2BFEF /* Confirmation.framework in Frameworks */,
+				FA4A36832664DD0D00A2BFEF /* PinConfirmation.framework in Frameworks */,
+				FA4A36912664DD0D00A2BFEF /* Transfer.framework in Frameworks */,
+				FA4A36812664DD0D00A2BFEF /* Pin.framework in Frameworks */,
+				FA4A367B2664DD0D00A2BFEF /* Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4E088F4165D8F457AF51B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950E0CC261C3D7AD31AC5DB9 /* Pods-AddPhone.debug.xcconfig */,
+				5BACE54D3BBE97ECC93CE849 /* Pods-AddPhone.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../App/Pods;
+			sourceTree = "<group>";
+		};
+		93265047ABE868365BB25409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A36632664DD0D00A2BFEF /* Confirmation.framework */,
+				FA4A36642664DD0D00A2BFEF /* Core.framework */,
+				FA4A36652664DD0D00A2BFEF /* EditProfile.framework */,
+				FA4A36662664DD0D00A2BFEF /* History.framework */,
+				FA4A36672664DD0D00A2BFEF /* Home.framework */,
+				FA4A36682664DD0D00A2BFEF /* Login.framework */,
+				FA4A36692664DD0D00A2BFEF /* Otp.framework */,
+				FA4A366A2664DD0D00A2BFEF /* Pin.framework */,
+				FA4A366B2664DD0D00A2BFEF /* PinConfirmation.framework */,
+				FA4A366C2664DD0D00A2BFEF /* Profile.framework */,
+				FA4A366D2664DD0D00A2BFEF /* Receiver.framework */,
+				FA4A366E2664DD0D00A2BFEF /* Register.framework */,
+				FA4A366F2664DD0D00A2BFEF /* SuccessTransfer.framework */,
+				FA4A36702664DD0D00A2BFEF /* TopUp.framework */,
+				FA4A36712664DD0D00A2BFEF /* TopupCentre.framework */,
+				FA4A36722664DD0D00A2BFEF /* Transfer.framework */,
+				7470C55FAF6F348B32CF0477 /* Pods_AddPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4E948C2663F9C900766182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E948D2663F9E000766182 /* AddPhoneViewController.swift */,
+				FA4E948E2663F9E000766182 /* AddPhoneViewController.xib */,
+				FA4E94AA26640B6900766182 /* PhoneView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA4E94922664040500766182 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E94932664044A00766182 /* PhoneInteractor.swift */,
+				FA4E9496266409A500766182 /* PhoneInteractorImpl.swift */,
+				FA4E949C26640A2300766182 /* PhoneInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FA4E949F26640AA800766182 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E94A026640AB500766182 /* PhoneRouter.swift */,
+				FA4E94AD26640D2500766182 /* PhoneRouterImpl.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FA4E94A326640AE900766182 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E94A426640AF800766182 /* PhonePresenter.swift */,
+				FA4E94A726640B3400766182 /* PhonePresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAE7A9362663F94C009D0604 = {
+			isa = PBXGroup;
+			children = (
+				FAE7A9422663F94D009D0604 /* AddPhone */,
+				FAE7A9412663F94D009D0604 /* Products */,
+				4E4E088F4165D8F457AF51B3 /* Pods */,
+				93265047ABE868365BB25409 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE7A9412663F94D009D0604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7A9402663F94D009D0604 /* AddPhone.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE7A9422663F94D009D0604 /* AddPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E94A326640AE900766182 /* Presenter */,
+				FA4E949F26640AA800766182 /* Router */,
+				FA4E94922664040500766182 /* Interactor */,
+				FA4E948C2663F9C900766182 /* View */,
+				FAE7A9432663F94D009D0604 /* AddPhone.h */,
+				FAE7A9442663F94D009D0604 /* Info.plist */,
+			);
+			path = AddPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAE7A93B2663F94D009D0604 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7A9452663F94D009D0604 /* AddPhone.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAE7A93F2663F94D009D0604 /* AddPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7A9482663F94D009D0604 /* Build configuration list for PBXNativeTarget "AddPhone" */;
+			buildPhases = (
+				2B2404359DA4F60A1C45A04B /* [CP] Check Pods Manifest.lock */,
+				FAE7A93B2663F94D009D0604 /* Headers */,
+				FAE7A93C2663F94D009D0604 /* Sources */,
+				FAE7A93D2663F94D009D0604 /* Frameworks */,
+				FAE7A93E2663F94D009D0604 /* Resources */,
+				FA4A36932664DD0D00A2BFEF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddPhone;
+			productName = AddPhone;
+			productReference = FAE7A9402663F94D009D0604 /* AddPhone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE7A9372663F94C009D0604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAE7A93F2663F94D009D0604 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = FAE7A93A2663F94C009D0604 /* Build configuration list for PBXProject "AddPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE7A9362663F94C009D0604;
+			productRefGroup = FAE7A9412663F94D009D0604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE7A93F2663F94D009D0604 /* AddPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE7A93E2663F94D009D0604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4E94902663F9E000766182 /* AddPhoneViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B2404359DA4F60A1C45A04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE7A93C2663F94D009D0604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4E949D26640A2300766182 /* PhoneInteractorOutput.swift in Sources */,
+				FA4E94A526640AF800766182 /* PhonePresenter.swift in Sources */,
+				FA4E94A126640AB500766182 /* PhoneRouter.swift in Sources */,
+				FA4E948F2663F9E000766182 /* AddPhoneViewController.swift in Sources */,
+				FA4E94942664044A00766182 /* PhoneInteractor.swift in Sources */,
+				FA4E94A826640B3400766182 /* PhonePresenterImpl.swift in Sources */,
+				FA4E9497266409A500766182 /* PhoneInteractorImpl.swift in Sources */,
+				FA4E94AB26640B6900766182 /* PhoneView.swift in Sources */,
+				FA4E94AE26640D2500766182 /* PhoneRouterImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAE7A9462663F94D009D0604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAE7A9472663F94D009D0604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE7A9492663F94D009D0604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950E0CC261C3D7AD31AC5DB9 /* Pods-AddPhone.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 28NN36KCKR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AddPhone/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grevi.msx.AddPhone;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE7A94A2663F94D009D0604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BACE54D3BBE97ECC93CE849 /* Pods-AddPhone.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 28NN36KCKR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AddPhone/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grevi.msx.AddPhone;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE7A93A2663F94C009D0604 /* Build configuration list for PBXProject "AddPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7A9462663F94D009D0604 /* Debug */,
+				FAE7A9472663F94D009D0604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7A9482663F94D009D0604 /* Build configuration list for PBXNativeTarget "AddPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7A9492663F94D009D0604 /* Debug */,
+				FAE7A94A2663F94D009D0604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE7A9372663F94C009D0604 /* Project object */;
+}

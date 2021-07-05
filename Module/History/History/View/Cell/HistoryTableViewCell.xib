@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="121" id="KGk-i7-Jjw" customClass="HistoryTableViewCell" customModule="History" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUb-gX-mD5">
+                        <rect key="frame" x="16" y="16" width="337" height="89"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4uc-S8-LjQ">
+                                <rect key="frame" x="16" y="16" width="60" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="nRW-7I-a8b"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-Ad-u8N">
+                                <rect key="frame" x="90" y="16" width="41.5" height="57"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnG-16-42w">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htY-a0-voN">
+                                        <rect key="frame" x="0.0" y="41" width="41.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 780.000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-2P-H5j">
+                                <rect key="frame" x="147.5" y="32" width="173.5" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94901960780000005" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4uc-S8-LjQ" firstAttribute="leading" secondItem="cUb-gX-mD5" secondAttribute="leading" constant="16" id="1ZE-3n-UyH"/>
+                            <constraint firstItem="Cth-Ad-u8N" firstAttribute="top" secondItem="cUb-gX-mD5" secondAttribute="top" constant="16" id="3pl-7a-V77"/>
+                            <constraint firstItem="Cth-Ad-u8N" firstAttribute="leading" secondItem="4uc-S8-LjQ" secondAttribute="trailing" constant="14" id="AJm-06-vzr"/>
+                            <constraint firstAttribute="bottom" secondItem="Cth-Ad-u8N" secondAttribute="bottom" constant="16" id="BnU-vI-Wrx"/>
+                            <constraint firstAttribute="bottom" secondItem="4uc-S8-LjQ" secondAttribute="bottom" constant="16" id="DD7-2j-ZKk"/>
+                            <constraint firstItem="4uc-S8-LjQ" firstAttribute="top" secondItem="cUb-gX-mD5" secondAttribute="top" constant="16" id="EXE-nK-SW2"/>
+                            <constraint firstAttribute="trailing" secondItem="kbs-2P-H5j" secondAttribute="trailing" constant="16" id="Lg3-8W-elX"/>
+                            <constraint firstItem="kbs-2P-H5j" firstAttribute="top" secondItem="cUb-gX-mD5" secondAttribute="top" constant="32" id="fcJ-6p-IvS"/>
+                            <constraint firstAttribute="bottom" secondItem="kbs-2P-H5j" secondAttribute="bottom" constant="32" id="kwK-7H-uMj"/>
+                            <constraint firstItem="kbs-2P-H5j" firstAttribute="leading" secondItem="Cth-Ad-u8N" secondAttribute="trailing" constant="16" id="kzn-W7-DfY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cUb-gX-mD5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="2cE-6g-zeb"/>
+                    <constraint firstAttribute="bottom" secondItem="cUb-gX-mD5" secondAttribute="bottom" constant="16" id="WtN-Vk-okJ"/>
+                    <constraint firstAttribute="trailing" secondItem="cUb-gX-mD5" secondAttribute="trailing" constant="16" id="dt3-ah-Prm"/>
+                    <constraint firstItem="cUb-gX-mD5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qab-at-SZq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="historyAmountLbl" destination="kbs-2P-H5j" id="qWK-SD-fxv"/>
+                <outlet property="historyImage" destination="4uc-S8-LjQ" id="7O0-uZ-Ped"/>
+                <outlet property="historyNameLbl" destination="RnG-16-42w" id="GmC-Uf-wmc"/>
+                <outlet property="historyNoteLbl" destination="htY-a0-voN" id="8dX-q5-y3w"/>
+            </connections>
+            <point key="canvasLocation" x="70.28985507246378" y="88.058035714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

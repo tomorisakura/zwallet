@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="TopupTableViewCell" customModule="TopUp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZS-b3-SaQ">
+                        <rect key="frame" x="16" y="16" width="402" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Virtual Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keS-gX-jT4">
+                                <rect key="frame" x="46" y="20" width="340" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVI-Cx-0DY">
+                                <rect key="frame" x="16" y="15" width="12" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="keS-gX-jT4" secondAttribute="bottom" constant="20" id="39w-Qi-94t"/>
+                            <constraint firstItem="keS-gX-jT4" firstAttribute="top" secondItem="GZS-b3-SaQ" secondAttribute="top" constant="20" id="44p-do-yXc"/>
+                            <constraint firstItem="eVI-Cx-0DY" firstAttribute="top" secondItem="GZS-b3-SaQ" secondAttribute="top" constant="15" id="Awf-3R-71B"/>
+                            <constraint firstAttribute="trailing" secondItem="keS-gX-jT4" secondAttribute="trailing" constant="16" id="bPj-Re-G04"/>
+                            <constraint firstItem="keS-gX-jT4" firstAttribute="leading" secondItem="eVI-Cx-0DY" secondAttribute="trailing" constant="18" id="tD0-4F-13e"/>
+                            <constraint firstAttribute="bottom" secondItem="eVI-Cx-0DY" secondAttribute="bottom" constant="15" id="v2w-aa-bbv"/>
+                            <constraint firstItem="eVI-Cx-0DY" firstAttribute="leading" secondItem="GZS-b3-SaQ" secondAttribute="leading" constant="16" id="xnc-g2-Sni"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GZS-b3-SaQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="hox-SX-PSk"/>
+                    <constraint firstItem="GZS-b3-SaQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="iX5-dI-Ajy"/>
+                    <constraint firstAttribute="trailing" secondItem="GZS-b3-SaQ" secondAttribute="trailing" constant="16" id="tnW-7c-Q6h"/>
+                    <constraint firstAttribute="bottom" secondItem="GZS-b3-SaQ" secondAttribute="bottom" constant="16" id="xYc-Oo-9C0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="55.072463768115945" y="7.3660714285714279"/>
+        </tableViewCell>
+    </objects>
+</document>

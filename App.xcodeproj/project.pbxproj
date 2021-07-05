@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B023F1452E618A37C32F9A61 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B8FC4258F0F7FA977E99DC /* Pods_App.framework */; };
+		FA07CC5A2664E1B60073A4AA /* AddPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC492664E1B50073A4AA /* AddPhone.framework */; };
+		FA07CC5B2664E1B60073A4AA /* AddPhone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC492664E1B50073A4AA /* AddPhone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC5C2664E1B60073A4AA /* Confirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4A2664E1B50073A4AA /* Confirmation.framework */; };
+		FA07CC5D2664E1B60073A4AA /* Confirmation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4A2664E1B50073A4AA /* Confirmation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC5E2664E1B60073A4AA /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4B2664E1B50073A4AA /* Core.framework */; };
+		FA07CC5F2664E1B60073A4AA /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4B2664E1B50073A4AA /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC602664E1B60073A4AA /* EditProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4C2664E1B50073A4AA /* EditProfile.framework */; };
+		FA07CC612664E1B60073A4AA /* EditProfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4C2664E1B50073A4AA /* EditProfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC622664E1B60073A4AA /* History.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4D2664E1B50073A4AA /* History.framework */; };
+		FA07CC632664E1B60073A4AA /* History.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4D2664E1B50073A4AA /* History.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC642664E1B60073A4AA /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4E2664E1B50073A4AA /* Home.framework */; };
+		FA07CC652664E1B60073A4AA /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4E2664E1B50073A4AA /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC662664E1B60073A4AA /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4F2664E1B50073A4AA /* Login.framework */; };
+		FA07CC672664E1B60073A4AA /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC4F2664E1B50073A4AA /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC682664E1B60073A4AA /* Otp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC502664E1B50073A4AA /* Otp.framework */; };
+		FA07CC692664E1B60073A4AA /* Otp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC502664E1B50073A4AA /* Otp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC6A2664E1B60073A4AA /* Pin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC512664E1B50073A4AA /* Pin.framework */; };
+		FA07CC6B2664E1B60073A4AA /* Pin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC512664E1B50073A4AA /* Pin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC6C2664E1B60073A4AA /* PinConfirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC522664E1B50073A4AA /* PinConfirmation.framework */; };
+		FA07CC6D2664E1B60073A4AA /* PinConfirmation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC522664E1B50073A4AA /* PinConfirmation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC6E2664E1B60073A4AA /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC532664E1B50073A4AA /* Profile.framework */; };
+		FA07CC6F2664E1B60073A4AA /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC532664E1B50073A4AA /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC702664E1B60073A4AA /* Receiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC542664E1B50073A4AA /* Receiver.framework */; };
+		FA07CC712664E1B60073A4AA /* Receiver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC542664E1B50073A4AA /* Receiver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC722664E1B60073A4AA /* Register.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC552664E1B50073A4AA /* Register.framework */; };
+		FA07CC732664E1B60073A4AA /* Register.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC552664E1B50073A4AA /* Register.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC742664E1B60073A4AA /* SuccessTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC562664E1B50073A4AA /* SuccessTransfer.framework */; };
+		FA07CC752664E1B60073A4AA /* SuccessTransfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC562664E1B50073A4AA /* SuccessTransfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC762664E1B60073A4AA /* TopUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC572664E1B50073A4AA /* TopUp.framework */; };
+		FA07CC772664E1B60073A4AA /* TopUp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC572664E1B50073A4AA /* TopUp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC782664E1B60073A4AA /* TopupCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC582664E1B50073A4AA /* TopupCentre.framework */; };
+		FA07CC792664E1B60073A4AA /* TopupCentre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC582664E1B50073A4AA /* TopupCentre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA07CC7A2664E1B60073A4AA /* Transfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC592664E1B50073A4AA /* Transfer.framework */; };
+		FA07CC7B2664E1B60073A4AA /* Transfer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA07CC592664E1B50073A4AA /* Transfer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA4A362F2664DA1300A2BFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A362E2664DA1300A2BFEF /* AppDelegate.swift */; };
+		FA4A36312664DA1300A2BFEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A36302664DA1300A2BFEF /* SceneDelegate.swift */; };
+		FA4A36332664DA1300A2BFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A36322664DA1300A2BFEF /* ViewController.swift */; };
+		FA4A36362664DA1300A2BFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4A36342664DA1300A2BFEF /* Main.storyboard */; };
+		FA4A36382664DA1300A2BFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4A36372664DA1300A2BFEF /* Assets.xcassets */; };
+		FA4A363B2664DA1300A2BFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4A36392664DA1300A2BFEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA07CC7C2664E1B60073A4AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA07CC612664E1B60073A4AA /* EditProfile.framework in Embed Frameworks */,
+				FA07CC752664E1B60073A4AA /* SuccessTransfer.framework in Embed Frameworks */,
+				FA07CC5B2664E1B60073A4AA /* AddPhone.framework in Embed Frameworks */,
+				FA07CC6F2664E1B60073A4AA /* Profile.framework in Embed Frameworks */,
+				FA07CC672664E1B60073A4AA /* Login.framework in Embed Frameworks */,
+				FA07CC732664E1B60073A4AA /* Register.framework in Embed Frameworks */,
+				FA07CC5F2664E1B60073A4AA /* Core.framework in Embed Frameworks */,
+				FA07CC692664E1B60073A4AA /* Otp.framework in Embed Frameworks */,
+				FA07CC632664E1B60073A4AA /* History.framework in Embed Frameworks */,
+				FA07CC712664E1B60073A4AA /* Receiver.framework in Embed Frameworks */,
+				FA07CC792664E1B60073A4AA /* TopupCentre.framework in Embed Frameworks */,
+				FA07CC772664E1B60073A4AA /* TopUp.framework in Embed Frameworks */,
+				FA07CC5D2664E1B60073A4AA /* Confirmation.framework in Embed Frameworks */,
+				FA07CC6D2664E1B60073A4AA /* PinConfirmation.framework in Embed Frameworks */,
+				FA07CC7B2664E1B60073A4AA /* Transfer.framework in Embed Frameworks */,
+				FA07CC6B2664E1B60073A4AA /* Pin.framework in Embed Frameworks */,
+				FA07CC652664E1B60073A4AA /* Home.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25B8FC4258F0F7FA977E99DC /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15BC2639600F9A661651115 /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		F9DEEE935A7E7F363A118B9C /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		FA07CC492664E1B50073A4AA /* AddPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AddPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4A2664E1B50073A4AA /* Confirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Confirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4B2664E1B50073A4AA /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4C2664E1B50073A4AA /* EditProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EditProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4D2664E1B50073A4AA /* History.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = History.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4E2664E1B50073A4AA /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC4F2664E1B50073A4AA /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC502664E1B50073A4AA /* Otp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Otp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC512664E1B50073A4AA /* Pin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC522664E1B50073A4AA /* PinConfirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PinConfirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC532664E1B50073A4AA /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC542664E1B50073A4AA /* Receiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Receiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC552664E1B50073A4AA /* Register.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Register.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC562664E1B50073A4AA /* SuccessTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SuccessTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC572664E1B50073A4AA /* TopUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC582664E1B50073A4AA /* TopupCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TopupCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA07CC592664E1B50073A4AA /* Transfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Transfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A362B2664DA1300A2BFEF /* Zwallet-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zwallet-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4A362E2664DA1300A2BFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA4A36302664DA1300A2BFEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA4A36322664DA1300A2BFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA4A36352664DA1300A2BFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4A36372664DA1300A2BFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4A363A2664DA1300A2BFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA4A363C2664DA1300A2BFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4A36B42664DE7300A2BFEF /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfig.xcconfig; sourceTree = "<group>"; };
+		FA4A36B82664DE8700A2BFEF /* ReleseConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleseConfig.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4A36282664DA1300A2BFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA07CC702664E1B60073A4AA /* Receiver.framework in Frameworks */,
+				FA07CC642664E1B60073A4AA /* Home.framework in Frameworks */,
+				FA07CC6C2664E1B60073A4AA /* PinConfirmation.framework in Frameworks */,
+				FA07CC762664E1B60073A4AA /* TopUp.framework in Frameworks */,
+				B023F1452E618A37C32F9A61 /* Pods_App.framework in Frameworks */,
+				FA07CC5A2664E1B60073A4AA /* AddPhone.framework in Frameworks */,
+				FA07CC782664E1B60073A4AA /* TopupCentre.framework in Frameworks */,
+				FA07CC5C2664E1B60073A4AA /* Confirmation.framework in Frameworks */,
+				FA07CC662664E1B60073A4AA /* Login.framework in Frameworks */,
+				FA07CC6E2664E1B60073A4AA /* Profile.framework in Frameworks */,
+				FA07CC622664E1B60073A4AA /* History.framework in Frameworks */,
+				FA07CC742664E1B60073A4AA /* SuccessTransfer.framework in Frameworks */,
+				FA07CC6A2664E1B60073A4AA /* Pin.framework in Frameworks */,
+				FA07CC682664E1B60073A4AA /* Otp.framework in Frameworks */,
+				FA07CC722664E1B60073A4AA /* Register.framework in Frameworks */,
+				FA07CC7A2664E1B60073A4AA /* Transfer.framework in Frameworks */,
+				FA07CC602664E1B60073A4AA /* EditProfile.framework in Frameworks */,
+				FA07CC5E2664E1B60073A4AA /* Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67945584221C808EF17224E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA07CC492664E1B50073A4AA /* AddPhone.framework */,
+				FA07CC4A2664E1B50073A4AA /* Confirmation.framework */,
+				FA07CC4B2664E1B50073A4AA /* Core.framework */,
+				FA07CC4C2664E1B50073A4AA /* EditProfile.framework */,
+				FA07CC4D2664E1B50073A4AA /* History.framework */,
+				FA07CC4E2664E1B50073A4AA /* Home.framework */,
+				FA07CC4F2664E1B50073A4AA /* Login.framework */,
+				FA07CC502664E1B50073A4AA /* Otp.framework */,
+				FA07CC512664E1B50073A4AA /* Pin.framework */,
+				FA07CC522664E1B50073A4AA /* PinConfirmation.framework */,
+				FA07CC532664E1B50073A4AA /* Profile.framework */,
+				FA07CC542664E1B50073A4AA /* Receiver.framework */,
+				FA07CC552664E1B50073A4AA /* Register.framework */,
+				FA07CC562664E1B50073A4AA /* SuccessTransfer.framework */,
+				FA07CC572664E1B50073A4AA /* TopUp.framework */,
+				FA07CC582664E1B50073A4AA /* TopupCentre.framework */,
+				FA07CC592664E1B50073A4AA /* Transfer.framework */,
+				25B8FC4258F0F7FA977E99DC /* Pods_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3551E530A6323BFDB7AB440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F15BC2639600F9A661651115 /* Pods-App.debug.xcconfig */,
+				F9DEEE935A7E7F363A118B9C /* Pods-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA4A36222664DA1300A2BFEF = {
+			isa = PBXGroup;
+			children = (
+				FA4A362D2664DA1300A2BFEF /* App */,
+				FA4A362C2664DA1300A2BFEF /* Products */,
+				C3551E530A6323BFDB7AB440 /* Pods */,
+				67945584221C808EF17224E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4A362C2664DA1300A2BFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A362B2664DA1300A2BFEF /* Zwallet-Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4A362D2664DA1300A2BFEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A36B32664DE3200A2BFEF /* Configuration */,
+				FA4A362E2664DA1300A2BFEF /* AppDelegate.swift */,
+				FA4A36302664DA1300A2BFEF /* SceneDelegate.swift */,
+				FA4A36322664DA1300A2BFEF /* ViewController.swift */,
+				FA4A36342664DA1300A2BFEF /* Main.storyboard */,
+				FA4A36372664DA1300A2BFEF /* Assets.xcassets */,
+				FA4A36392664DA1300A2BFEF /* LaunchScreen.storyboard */,
+				FA4A363C2664DA1300A2BFEF /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA4A36B32664DE3200A2BFEF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A36B42664DE7300A2BFEF /* DebugConfig.xcconfig */,
+				FA4A36B82664DE8700A2BFEF /* ReleseConfig.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4A362A2664DA1300A2BFEF /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4A363F2664DA1300A2BFEF /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				4FFD7D2F87421528E3C205D7 /* [CP] Check Pods Manifest.lock */,
+				FA4A36272664DA1300A2BFEF /* Sources */,
+				FA4A36282664DA1300A2BFEF /* Frameworks */,
+				FA4A36292664DA1300A2BFEF /* Resources */,
+				3CE9BF7F442D067EBF39D7BD /* [CP] Embed Pods Frameworks */,
+				FA07CC7C2664E1B60073A4AA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App;
+			productName = App;
+			productReference = FA4A362B2664DA1300A2BFEF /* Zwallet-Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4A36232664DA1300A2BFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA4A362A2664DA1300A2BFEF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FA4A36262664DA1300A2BFEF /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4A36222664DA1300A2BFEF;
+			productRefGroup = FA4A362C2664DA1300A2BFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4A362A2664DA1300A2BFEF /* App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4A36292664DA1300A2BFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4A363B2664DA1300A2BFEF /* LaunchScreen.storyboard in Resources */,
+				FA4A36382664DA1300A2BFEF /* Assets.xcassets in Resources */,
+				FA4A36362664DA1300A2BFEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE9BF7F442D067EBF39D7BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFD7D2F87421528E3C205D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4A36272664DA1300A2BFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4A36332664DA1300A2BFEF /* ViewController.swift in Sources */,
+				FA4A362F2664DA1300A2BFEF /* AppDelegate.swift in Sources */,
+				FA4A36312664DA1300A2BFEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA4A36342664DA1300A2BFEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4A36352664DA1300A2BFEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA4A36392664DA1300A2BFEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4A363A2664DA1300A2BFEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4A363D2664DA1300A2BFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4A36B42664DE7300A2BFEF /* DebugConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4A363E2664DA1300A2BFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4A36B82664DE8700A2BFEF /* ReleseConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4A36402664DA1300A2BFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15BC2639600F9A661651115 /* Pods-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28NN36KCKR;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grevi.msx.App;
+				PRODUCT_NAME = "Zwallet-Debug";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA4A36412664DA1300A2BFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DEEE935A7E7F363A118B9C /* Pods-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28NN36KCKR;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grevi.msx.App;
+				PRODUCT_NAME = Zwallet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4A36262664DA1300A2BFEF /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A363D2664DA1300A2BFEF /* Debug */,
+				FA4A363E2664DA1300A2BFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA4A363F2664DA1300A2BFEF /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4A36402664DA1300A2BFEF /* Debug */,
+				FA4A36412664DA1300A2BFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4A36232664DA1300A2BFEF /* Project object */;
+}
